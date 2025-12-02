@@ -24,9 +24,8 @@ def appendAndDelete(s, t, k):
     D=0
     for i in range(C):
         if s[i] !=t[i]:
-            D=i
             break
-    if (A+B-2*D == k) or ((s == t) and (k %2 ==0  )) or (k > A+B):
+    if (A+B-2*i == k) or ((s == t) and (k %2 ==0  )) or (k > A+B):
         Answer="Yes"
     
     return Answer 
